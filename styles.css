@@ -88,8 +88,11 @@ section {
   flex-direction: row;
   justify-content: space-evenly;
   width: 95%;
-  margin: auto;
-  margin-bottom: 100px;
+  margin: 50px auto 100px auto;
+}
+
+.verticalDivider {
+  border-right: 1px solid black;
 }
 
 .splitParts {
