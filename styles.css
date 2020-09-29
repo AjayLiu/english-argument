@@ -74,7 +74,7 @@ section {
   height: 70px;
   margin: 40px auto 40px auto;
   font-size: xx-large;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   text-align: center;
 }
 
@@ -89,6 +89,23 @@ section {
   justify-content: space-evenly;
   width: 95%;
   margin: auto;
+  margin-bottom: 100px;
+}
+
+.splitParts {
+  width: 40%;
+  margin: auto;
+}
+
+q {
+  display: block;
+  font-style: italic;
+  margin: 40px auto;
+}
+
+#work {
+  text-align: right;
+  font-weight: bold;
 }
 
 .vertical {
@@ -106,48 +123,8 @@ section {
   max-width: 500px;
 }
 
-#formula {
-  max-width: 1000px;
-}
-
 #aboutText {
   width: 50%;
-}
-
-#interactive {
-  font-size: x-large;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-#interactive > * {
-  margin: 5px;
-}
-
-#fraction {
-  width: 200px;
-}
-
-#fraction input {
-  font-size: large;
-}
-
-#fraction hr {
-  width: 100%;
-}
-
-#footnote {
-  text-align: center;
-}
-
-#faqSection {
-  width: 70%;
-  margin-bottom: 90px;
 }
 
 footer {
