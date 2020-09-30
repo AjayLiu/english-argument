@@ -130,6 +130,10 @@ q {
   max-width: 500px;
 }
 
+.smallImg {
+  width: 200px;
+}
+
 #aboutText {
   width: 50%;
 }
